@@ -1,16 +1,19 @@
 {
-    "infomation": [
-        {
-            "id": 1,
-            "title": "第1条数据",
-            "desc": "desc1",
-            "author": "author1"
-        },
-        {
-            "id": 2,
-            "title": "第2条数据",
-            "desc": "desc2",
-            "author": "author2"
-        }
-    ]
-}
+    "posts": [
+      {
+        "id": 1,
+        "title": "json-server",
+        "author": "typicode"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }  
