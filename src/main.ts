@@ -8,4 +8,4 @@ import 'vant/lib/index.css';
 
 import router from './router'
 
-createApp(App).use(Icon).use(router).mount('#app')
+createApp(App).use(vant).use(Icon).use(router).mount('#app')
