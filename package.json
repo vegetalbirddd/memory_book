@@ -5,22 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "json-server": "^1.0.0-alpha.21",
-    "vant": "^4.8.2",
-    "vue": "^3.3.11",
-    "vue-router": "^4.2.5"
+    "vue": "^3.3.11"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.5.2",
-    "ts-loader": "^9.5.1",
-    "tslint": "^5.20.1",
-    "tslint-config-standard": "^9.0.0",
-    "tslint-loader": "^3.5.4",
-    "typescript": "^3.9.10",
-    "vite": "^5.0.8"
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vue-tsc": "^1.8.25"
   }
 }
