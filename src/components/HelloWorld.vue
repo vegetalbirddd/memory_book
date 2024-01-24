@@ -19,8 +19,9 @@ const count = ref(0)
 
   <p>
     Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank">create-vue</a>, the official Vue + Vite
-    starter
+    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
+      >create-vue</a
+    >, the official Vue + Vite starter
   </p>
   <p>
     Install
@@ -33,11 +34,5 @@ const count = ref(0)
 <style lang="less" scoped>
 .read-the-docs {
   color: #888;
-}
-
-div {
-  p {
-    color: red;
-  }
 }
 </style>

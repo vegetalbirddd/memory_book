@@ -3,10 +3,16 @@ import { createRouter, createWebHistory } from "vue-router";
 
 let routes = [
     {
-        path: '/',
+        path: '/home',
         name: 'home',
         //使用import可以路由懒加载，如果不使用，太多组件一起加载会造成白屏
         component: () => import('../view/home.vue')
+    },
+    {
+        path: '/search',
+        name: 'search',
+        //使用import可以路由懒加载，如果不使用，太多组件一起加载会造成白屏
+        component: () => import('../view/search.vue')
     },
     //{
     //配置404页面
