@@ -18,7 +18,7 @@ const onclickTabbar = function () {
   <van-nav-bar :title="title" :fixed=true />
   <router-view />
   <van-tabbar v-model="active" route>
-    <van-tabbar-item replace to="/home" icon="home-o" @click="onclickTabbar">首页</van-tabbar-item>
+    <van-tabbar-item replace to="/" icon="home-o" @click="onclickTabbar">首页</van-tabbar-item>
     <van-tabbar-item replace to="/search" icon="search" @click="onclickTabbar">搜索</van-tabbar-item>
     <van-tabbar-item icon="friends-o">标签</van-tabbar-item>
     <van-tabbar-item icon="setting-o">标签</van-tabbar-item>

@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 let routes = [
     {
-        path: '/home',
+        path: '/',
         name: 'home',
         //使用import可以路由懒加载，如果不使用，太多组件一起加载会造成白屏
         component: () => import('../view/home.vue')
